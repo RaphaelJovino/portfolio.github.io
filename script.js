@@ -13,11 +13,14 @@ function girar() {
 
 let botaoNavegacao = document.getElementById("idBotaoMenu");
 let barraNavegacao = document.getElementById("barraNavegacao");
+let paginaPrincipal = document.getElementById("principal");
 
 botaoNavegacao.addEventListener("click", function () {
-  if (barraNavegacao.style.display == "none") {
-    barraNavegacao.style.display = "block";
+  if (barraNavegacao.style.visibility == "hidden") {
+    barraNavegacao.style.visibility = "visible";
+    // paginaPrincipal.style.filter = "blur(3px)";
   } else {
-    barraNavegacao.style.display = "none";
+    barraNavegacao.style.visibility = "hidden";
+    // paginaPrincipal.style.filter = "none";
   }
 });
