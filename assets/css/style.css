@@ -1,0 +1,64 @@
+@media (min-width: 900px) {
+    .menuLateral {
+        top: 25px;
+        left: 350px;
+    }
+
+    .nomeDestaque {
+        font-size: 80px;
+        top: 80px;
+        left: 0px;
+    }
+
+    .imagemAutismo {
+        left: 500px;
+        top: 40px;
+    }
+
+    .destaqueDesenvolvedorWeb {
+        right: 0px;
+    }
+
+    .conhecimentos {
+        width: 900px;
+    }
+
+    .botoes-navegacao:hover {
+        text-decoration: underline;
+
+    }
+
+    .linkContatos {
+        transition: all 1s;
+        cursor: pointer;
+    }
+
+    .linkContatos:hover {
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
+
+    .animacao {
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        margin: 40px;
+        padding: 60px;
+        border-radius: 100%;
+        border-top: 7px solid #64FFDA;
+        border-bottom: 7px solid #64FFDA;
+        animation: loading .5s linear infinite;
+    }
+
+    @keyframes loading {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

@@ -1,0 +1,303 @@
+  @media(min-width: 0px) {
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Reem+Kufi+Ink&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      list-style: none;
+    }
+
+    body {
+      background: #09192f;
+      font-family: "Montserrat", sans-serif;
+      font-family: "Reem Kufi Ink", sans-serif;
+    }
+
+    .animacao {
+      display: none;
+    }
+
+    .principal,
+    .menuLateral {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .botaoMenu {
+      color: #64ffda;
+      transition: all 0.5s;
+      position: relative;
+      left: 10px;
+
+    }
+
+    .barraNavegacao {
+      background: #12243d;
+      height: 100vh;
+      width: 70vw;
+      font-size: 25px;
+      visibility: hidden;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .menuLateral {
+      justify-content: space-between;
+      top: 50px;
+      position: absolute;
+    }
+
+    .botoes-navegacao {
+      padding: 30px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #64ffda;
+    }
+
+    a:visited {
+      color: #64ffda;
+    }
+
+    .nomeDestaque {
+      position: relative;
+      font-size: 40px;
+      color: #c9ccd5;
+    }
+
+    .destaqueDesenvolvedorWeb {
+      color: #8892b0;
+      position: relative;
+      left: auto;
+      right: auto;
+      top: 60px;
+      font-size: 26px;
+    }
+
+    .imagemAutismo {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      left: auto;
+      right: auto;
+      top: 100px;
+    }
+
+    .paragrafoEstudante {
+      color: #8892b0;
+      font-size: 22px;
+      padding-left: 15px;
+      position: relative;
+      text-align: justify;
+      top: 120px;
+      align-items: center;
+    }
+
+    .botaoTopicos {
+      width: 350px;
+      height: 50px;
+      border: 1px solid #64ffda;
+      border-radius: 10px;
+      color: #64ffda;
+      background: transparent;
+      position: relative;
+      top: 185px;
+    }
+
+    .botaoTopicos:hover {
+      background-color: #2d826e;
+    }
+
+    .paragrafoSobre {
+      position: relative;
+      color: white;
+      font-size: 22px;
+      padding: 35px;
+      text-align: justify;
+      top: 200px;
+      padding-bottom: 60px;
+    }
+
+    .conhecimentos {
+      color: #64ffda;
+      position: relative;
+      top: 180px;
+      width: 80vw;
+      height: 40vh;
+      padding: 39px;
+      margin: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .conhecimentosItem {
+      width: 120px;
+      height: 20px;
+      font-size: 20px;
+      border: white solid 1px;
+      border-radius: 4px;
+      margin: 9px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.083);
+      align-content: center;
+      text-align: center;
+    }
+
+    .conhecimentosItem0 {
+      color: #e56027;
+      border-color: #e56027;
+    }
+
+    .conhecimentosItem0:hover {
+      background-color: #923b15;
+    }
+
+    .conhecimentosItem1 {
+      color: #2760e5;
+      border-color: #2760e5;
+    }
+
+    .conhecimentosItem1:hover {
+      background-color: #103895;
+    }
+
+    .conhecimentosItem2 {
+      color: #ead41c;
+      border-color: #ead41c;
+    }
+
+    .conhecimentosItem2:hover {
+      background-color: #998c13;
+    }
+
+    .conhecimentosItem3 {
+      color: black;
+      border-color: black;
+    }
+
+    .conhecimentosItem3:hover {
+      background-color: black;
+    }
+
+    .conhecimentosItem4 {
+      color: #3b2b01;
+      border-color: #3b2b01;
+    }
+
+    .conhecimentosItem4:hover {
+      background-color: #231a04;
+    }
+
+    .conhecimentosItem5 {
+      color: #414728;
+      border-color: #414728;
+    }
+
+    .conhecimentosItem5:hover {
+      background-color: #5f6b2e;
+    }
+
+    .conhecimentosItem6 {
+      color: #46baef;
+      border-color: #46baef;
+    }
+
+    .conhecimentosItem6:hover {
+      background-color: #1c8ec2;
+    }
+
+    .conhecimentosItem7 {
+      color: #6d11ea;
+      border-color: #6d11ea;
+    }
+
+    .conhecimentosItem7:hover {
+      background-color: #360976;
+    }
+
+    .imagemContatos {
+      display: flex;
+      width: 300px;
+      height: 100px;
+      top: 200px;
+      position: relative;
+    }
+
+    .linkContatos {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      border-radius: 100%;
+      margin: 10px;
+    }
+
+    .botaoTopo {
+      color: #64ffda;
+      position: relative;
+      top: 200px;
+    }
+
+    footer {
+      text-align: center;
+      color: #8892b0;
+      position: relative;
+      top: 200px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .botaoMenu {
+      display: none;
+    }
+
+    .botaoHome {
+      visibility: visible;
+      color: #64ffda;
+      position: relative;
+      right: 100px;
+    }
+
+    .menuLateral {
+      visibility: visible;
+      flex-direction: row;
+      position: relative;
+      top: 25px;
+      justify-content: end;
+      left: 200px;
+
+    }
+
+    .nomeDestaque {
+      font-size: 60px;
+      position: relative;
+      top: 100px;
+      left: 90px;
+    }
+
+    .destaqueDesenvolvedorWeb {
+      font-size: 40px;
+      right: 90px;
+      top: 100px;
+    }
+
+    .imagemAutismo {
+      position: relative;
+      right: 280px;
+    }
+
+    .botoes-navegacao {
+      width: 150px;
+      padding: 1px;
+      margin: 1px;
+      font-size: 20px;
+    }
+
+    .conhecimentosItem {
+      width: 170px;
+    }
+  }
