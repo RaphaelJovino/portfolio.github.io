@@ -1,6 +1,5 @@
 // rotacao do botao
 document.getElementById("idBotaoMenu").addEventListener("click", girar);
-
 function girar() {
   if (idBotaoMenu.style.transform == "rotate(0deg)") {
     idBotaoMenu.style.transform = "rotate(180deg)";
@@ -24,3 +23,12 @@ botaoNavegacao.addEventListener("click", function () {
     // paginaPrincipal.style.filter = "none";
   }
 });
+
+// aumentaCard
+
+let card = document.getElementById("cardImc");
+document.getElementById("cardImc").addEventListener("click", aumentaCard);
+
+function aumentaCard() {
+  card.style.display = "none";
+}

@@ -1,0 +1,182 @@
+  @media(min-width: 0px) {
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Reem+Kufi+Ink&display=swap");
+
+      * {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          list-style: none;
+      }
+
+      header {
+          background-color: #09192f;
+          width: 100vw;
+          height: 60vh;
+      }
+
+      .bi {
+          color: white;
+          width: 7vw;
+          height: 7vh;
+          position: relative;
+          top: 20px;
+          left: 30px;
+      }
+
+      h1,
+      p {
+          position: relative;
+          top: 10px;
+          margin-left: 20px;
+          margin-right: 20px;
+      }
+
+      h1 {
+          color: white;
+          font-size: 50px;
+          text-align: center;
+      }
+
+      p {
+          color: white;
+          font-size: 20px;
+          position: relative;
+          top: 30px;
+          text-align: justify;
+
+      }
+
+      .card-imc {
+          width: 65vw;
+          height: 50vh;
+          background-color: white;
+          border: solid black;
+          position: relative;
+          bottom: 55px;
+          margin: 0 auto;
+          border-radius: 20px;
+          box-shadow: 10px 10px currentColor;
+      }
+
+      .card-imc:hover {
+          width: 67vw;
+          height: 52vh;
+          box-shadow: 10px 10px #3c9369;
+      }
+
+      .card-outro {
+          width: 65vw;
+          height: 50vh;
+          background-color: white;
+          border: solid black;
+          position: relative;
+          bottom: 55px;
+          margin: 0 auto;
+          border-radius: 20px;
+          box-shadow: 10px 10px currentColor;
+          margin-top: 40px;
+      }
+
+      .card-outro:hover {
+          width: 67vw;
+          height: 52vh;
+          box-shadow: 10px 10px #3c9369;
+      }
+
+      .paragrafo-calculadora {
+          font-size: 25px;
+          color: black;
+          text-align: center;
+      }
+
+      .imagem-card-imc {
+          position: relative;
+          width: 50vw;
+          height: 35vh;
+          margin: 0 auto;
+          display: flex;
+          top: 40px;
+      }
+  }
+
+  @media(min-width: 768px) {
+      p {
+          text-align: center;
+
+      }
+
+      .card-imc {
+          width: 35vw;
+          left: 150px;
+          bottom: 130px;
+
+      }
+
+      .card-outro {
+          width: 35vw;
+          right: 180px;
+          bottom: 350px;
+
+      }
+
+      .imagem-card-imc {
+          width: 30vw;
+      }
+
+      .card-imc:hover {
+          width: 40vw;
+      }
+  }
+
+  @media(min-width: 900px) {
+
+      h1,
+      p {
+          position: relative;
+          top: 70px;
+          left: 150px;
+          position: relative;
+          left: 0px;
+          top: 0px;
+      }
+
+      h1 {
+          color: white;
+          font-size: 70px;
+          color: #64ffda;
+      }
+
+      p {
+          color: white;
+          font-size: 30px;
+          color: #64ffda;
+      }
+
+      .card-imc {
+          width: 20vw;
+          left: 430px;
+          bottom: 130px;
+
+      }
+
+      .imagem-card-imc {
+          width: 20vw;
+      }
+
+      .card-outro {
+          width: 20vw;
+          right: 0px;
+          bottom: 400px;
+      }
+
+      .card-imc:hover {
+          width: 22vw;
+          padding: 5px;
+      }
+
+      .card-outro:hover {
+          width: 22vw;
+          padding: 5px;
+      }
+
+  }
