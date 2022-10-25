@@ -8,175 +8,159 @@
           list-style: none;
       }
 
-      header {
-          background-color: #09192f;
-          width: 100vw;
-          height: 60vh;
+      body {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
       }
 
       .bi {
           color: white;
           width: 7vw;
           height: 7vh;
-          position: relative;
-          top: 20px;
-          left: 30px;
+          position: absolute;
+          position: absolute;
+          top: 15px;
+          left: 15px;
+      }
+
+      .header {
+          background-color: #09192f;
+          width: 100vw;
+          height: 60vh;
+          margin: 0 auto;
+          color: #64ffda;
       }
 
       h1,
       p {
           position: relative;
-          top: 10px;
-          margin-left: 20px;
-          margin-right: 20px;
+          top: 50px;
       }
 
       h1 {
-          color: white;
           font-size: 50px;
-          text-align: center;
       }
 
       p {
-          color: white;
-          font-size: 20px;
-          position: relative;
-          top: 30px;
-          text-align: justify;
-
+          font-size: 25px;
+          margin-top: 10px;
       }
 
-      .card-imc {
+      a:visited {
+          color: #3c9369;
+      }
+
+      a {
+          text-decoration: none;
+          display: contents;
+      }
+
+      .card {
           width: 65vw;
           height: 50vh;
           background-color: white;
           border: solid black;
           position: relative;
-          bottom: 55px;
+          bottom: 60px;
           margin: 0 auto;
           border-radius: 20px;
           box-shadow: 10px 10px currentColor;
+          margin-bottom: 50px;
       }
 
-      .card-imc:hover {
-          width: 67vw;
-          height: 52vh;
-          box-shadow: 10px 10px #3c9369;
-      }
-
-      .card-outro {
-          width: 65vw;
-          height: 50vh;
-          background-color: white;
-          border: solid black;
-          position: relative;
-          bottom: 55px;
-          margin: 0 auto;
-          border-radius: 20px;
-          box-shadow: 10px 10px currentColor;
-          margin-top: 40px;
-      }
-
-      .card-outro:hover {
-          width: 67vw;
-          height: 52vh;
-          box-shadow: 10px 10px #3c9369;
-      }
-
-      .paragrafo-calculadora {
+      .paragrafo-imagem {
           font-size: 25px;
           color: black;
-          text-align: center;
+          position: relative;
+          top: 10px;
       }
 
-      .imagem-card-imc {
-          position: relative;
+      .imagem-card {
           width: 50vw;
           height: 35vh;
           margin: 0 auto;
-          display: flex;
+          position: relative;
           top: 40px;
       }
+
+      .card:hover {
+          width: 67vw;
+          height: 52vh;
+          box-shadow: 10px 10px #3c9369;
+      }
+
   }
 
   @media(min-width: 768px) {
-      p {
-          text-align: center;
 
+      .card {
+          width: 35vw;
+          bottom: 160px;
       }
 
-      .card-imc {
-          width: 35vw;
-          left: 150px;
-          bottom: 130px;
-
+      .card-imc,
+      .card-trabalhando-nisso {
+          left: 200px;
       }
 
-      .card-outro {
-          width: 35vw;
-          right: 180px;
+      .card-barbearia {
+          right: 150px;
+          bottom: 250px;
+      }
+
+      .card-trabalhando-nisso {
           bottom: 350px;
-
       }
 
-      .imagem-card-imc {
+      .imagem-card {
           width: 30vw;
       }
 
-      .card-imc:hover {
-          width: 40vw;
+      .card:hover {
+          width: 37vw;
       }
   }
 
   @media(min-width: 900px) {
 
-      h1,
-      p {
-          position: relative;
-          top: 70px;
-          left: 150px;
-          position: relative;
-          left: 0px;
-          top: 0px;
-      }
-
       h1 {
-          color: white;
           font-size: 70px;
-          color: #64ffda;
+          right: 315px;
       }
 
-      p {
-          color: white;
+      .paragrafo-principal {
           font-size: 30px;
-          color: #64ffda;
+          right: 170px;
       }
 
-      .card-imc {
+      .card {
           width: 20vw;
           left: 430px;
-          bottom: 130px;
+          bottom: 120px;
 
       }
 
-      .imagem-card-imc {
+      .imagem-card {
           width: 20vw;
+          height: 35vh;
+          top: 15px;
+          position: relative;
       }
 
-      .card-outro {
-          width: 20vw;
-          right: 0px;
+      .card-barbearia {
+          bottom: 280px;
+          left: 60px;
+      }
+
+      .card-trabalhando-nisso {
           bottom: 400px;
       }
 
-      .card-imc:hover {
-          width: 22vw;
-          padding: 5px;
-      }
+      .card:hover {
+          width: 21vw;
+          height: 51vh;
 
-      .card-outro:hover {
-          width: 22vw;
-          padding: 5px;
       }
-
   }
